@@ -8,10 +8,10 @@
 
     <main>
         <!-- Home Section -->
-        @yield('content')
+        @yield('home-content')
 
         <!-- Properties Section -->
-        @yield('properties')
+        @yield('properties-content')
 
         <!-- Services Section -->
         @yield('services')
@@ -41,5 +41,7 @@
     </main>
     @include('theme.layout.footer')
     @include('theme.layout.script')
+
+
 </body>
 </html>

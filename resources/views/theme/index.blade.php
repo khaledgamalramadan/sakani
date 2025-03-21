@@ -4,7 +4,7 @@
 
 @section('home-active', 'active')
 
-@section('content')
+@section('home-content')
     <section id="home" class="section active">
         @include('theme.layout.hero')
         <div class="container">

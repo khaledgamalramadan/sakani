@@ -9,10 +9,10 @@
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#" data-section="home">Home</a></li>
-                        <li><a href="#" data-section="properties">Properties</a></li>
-                        <li><a href="#" data-section="services">Services</a></li>
-                        <li><a href="#" data-section="contact">Contact</a></li>
+                        <li><a href="{{ route('index') }}" >Home</a></li>
+                        <li><a href="{{ route('properties') }}" >Properties</a></li>
+                        <li><a href="{{ route('services') }}" >Services</a></li>
+                        <li><a href="{{ route('contact') }}" >Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
